@@ -1,0 +1,53 @@
+body{
+    background:whitesmoke;
+    margin:0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding:10px;
+    
+    
+    
+}
+header h1{
+    margin:0;
+    padding:10px;
+   
+}
+
+div.photo{
+    background: white;
+    margin-top: 10px;
+}
+div.photo img{
+
+    width:100%;
+}
+div.photo .head-photo div:first-child{
+
+    display: inline-block;
+   
+    width: 80%; 
+
+}
+div.photo .head-photo div:last-child{
+
+    display: inline-block;
+    text-align:right;
+    padding:10px;
+    width:20%;
+
+}
+div.photo h3, div.photo p{
+    padding:10px;
+    margin:0;
+}
+div.container{
+    width:600px;
+    margin:auto;
+    margin-top:40px;
+     border-radius: 2px solid black;
+}
